@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2021, 2:24:44 AM
+    Author     : Ryan Mardock
+*/
+
+.root{
+    -fx-background-color: #323131;
+}
+
+.list-view{
+    -fx-background-color: #323131;
+}
+
+.list-view:selected{
+    -fx-border-width: 0;
+}
+
+.list-cell{
+    -fx-cell-size: 42;
+}
+
+.list-cell:even{
+    -fx-background-color: #379264;
+    -fx-text-fill: #ffffff;
+}
+
+.list-cell:odd{
+    -fx-background-color: #505050;
+    -fx-text-fill: #ffffff;
+}
+
+.button{
+    -fx-background-color: #379264;
+    -fx-text-fill: #ffffff;
+}
+
+.list-cell:selected{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #379264;
+}
+
+#menuPanel{
+    -fx-background-color: #252525;
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: #ffffff;
+}
+
+#menuButton{
+    -fx-background-color: #252525;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
